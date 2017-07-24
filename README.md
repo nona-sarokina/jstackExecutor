@@ -1,0 +1,1 @@
+java -jar -DjStackPath="${path_to_jstack}" -DoutputPath="${output_path}" -Dpid=${PID} -Ddelay=${int_delay_value} -DtimeUnit=${TimeUnit} jstackScheduler-1.0-SNAPSHOT.jar
