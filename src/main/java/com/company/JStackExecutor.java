@@ -44,7 +44,7 @@ public class JStackExecutor {
 
 
     private String getThreadDumpFileName(){
-        return "tdump" + pid + "_" + String.valueOf(new Date().getTime()) + ".txt";
+        return "tdump" + pid + "_" + new Date().getTime() + ".txt";
     }
 
     public int getDelay()
